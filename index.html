@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Luis Carlos Mendez</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#050816;
+overflow-x:hidden;
+}
+
+.glow{
+box-shadow:0 0 25px rgba(34,211,238,.4);
+}
+
+.card{
+background:rgba(255,255,255,.03);
+backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,.08);
+}
+
+.grid-bg{
+background-image:
+linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+background-size:40px 40px;
+}
+</style>
+</head>
+
+<body class="text-white font-sans grid-bg">
+
+<!-- NAVBAR -->
+<header class="fixed w-full top-0 z-50 backdrop-blur-lg bg-black/30 border-b border-white/10">
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+<h1 class="text-2xl font-black tracking-widest text-cyan-400">
+LCM
+</h1>
+
+<nav class="hidden md:flex gap-8 text-sm text-gray-300">
+<a href="#inicio" class="hover:text-cyan-400 transition">Inicio</a>
+<a href="#sobre" class="hover:text-cyan-400 transition">Sobre mí</a>
+<a href="#skills" class="hover:text-cyan-400 transition">Habilidades</a>
+<a href="#proyectos" class="hover:text-cyan-400 transition">Proyectos</a>
+<a href="#contacto" class="hover:text-cyan-400 transition">Contacto</a>
+</nav>
+
+</div>
+</header>
+
+<!-- HERO -->
+<section id="inicio" class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+
+<div class="w-40 h-40 rounded-full overflow-hidden border-4 border-cyan-400 glow mb-8">
+<img
+src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800"
+class="w-full h-full object-cover"
+>
+</div>
+
+<h1 class="text-5xl md:text-7xl font-black leading-tight">
+Luis Carlos
+<span class="text-cyan-400">
+Mendez
+</span>
+</h1>
+
+<p class="mt-6 text-gray-400 max-w-2xl text-lg leading-8">
+Ingeniero orientado a redes, infraestructura y tecnologías modernas.
+Diseño soluciones profesionales enfocadas en rendimiento y seguridad.
+</p>
+
+<div class="mt-10 flex flex-wrap gap-4 justify-center">
+
+<a
+href="#proyectos"
+class="px-8 py-4 rounded-2xl bg-cyan-400 text-black font-bold hover:scale-105 transition glow"
+>
+Ver Proyectos
+</a>
+
+<a
+href="cv.pdf"
+download
+class="px-8 py-4 rounded-2xl border border-white/10 hover:border-cyan-400 hover:text-cyan-400 transition"
+>
+Descargar CV
+</a>
+
+</div>
+
+</section>
+
+<!-- SOBRE MI -->
+<section id="sobre" class="py-28 px-6">
+<div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+<div>
+<h2 class="text-4xl font-black mb-6">
+Sobre <span class="text-cyan-400">mí</span>
+</h2>
+
+<p class="text-gray-400 text-lg leading-8">
+Apasionado por redes empresariales, ciberseguridad y desarrollo moderno.
+Me enfoco en crear soluciones rápidas, elegantes y profesionales.
+</p>
+</div>
+
+<div class="card rounded-3xl p-10">
+
+<div class="space-y-5">
+
+<div class="flex justify-between border-b border-white/10 pb-4">
+<span class="text-gray-400">Especialidad</span>
+<span>Infraestructura & Redes</span>
+</div>
+
+<div class="flex justify-between border-b border-white/10 pb-4">
+<span class="text-gray-400">Ubicación</span>
+<span>República Dominicana</span>
+</div>
+
+<div class="flex justify-between">
+<span class="text-gray-400">Disponibilidad</span>
+<span class="text-green-400">Disponible</span>
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-28 px-6">
+
+<div class="max-w-6xl mx-auto">
+
+<h2 class="text-4xl font-black text-center mb-16">
+Habilidades <span class="text-cyan-400">Técnicas</span>
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="card rounded-3xl p-8">
+<h3 class="text-2xl font-bold text-cyan-400 mb-6">
+Redes
+</h3>
+
+<div class="flex flex-wrap gap-3">
+<span class="px-4 py-2 bg-black/30 rounded-xl">Cisco</span>
+<span class="px-4 py-2 bg-black/30 rounded-xl">VLAN</span>
+<span class="px-4 py-2 bg-black/30 rounded-xl">Routing</span>
+<span class="px-4 py-2 bg-black/30 rounded-xl">Switching</span>
+</div>
+</div>
+
+<div class="card rounded-3xl p-8">
+<h3 class="text-2xl font-bold text-cyan-400 mb-6">
+Sistemas
+</h3>
+
+<div class="flex flex-wrap gap-3">
+<span class="px-4 py-2 bg-black/30 rounded-xl">Linux</span>
+<span class="px-4 py-2 bg-black/30 rounded-xl">Windows Server</span>
+<span class="px-4 py-2 bg-black/30 rounded-xl">Virtualización</span>
+</div>
+</div>
+
+<div class="card rounded-3xl p-8">
+<h3 class="text-2xl font-bold text-cyan-400 mb-6">
+Desarrollo
+</h3>
+
+<div class="flex flex-wrap gap-3">
+<span class="px-4 py-2 bg-black/30 rounded-xl">Python</span>
+<span class="px-4 py-2 bg-black/30 rounded-xl">HTML</span>
+<span class="px-4 py-2 bg-black/30 rounded-xl">JavaScript</span>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PROYECTOS -->
+<section id="proyectos" class="py-28 px-6">
+
+<div class="max-w-6xl mx-auto">
+
+<h2 class="text-4xl font-black text-center mb-16">
+Mis <span class="text-cyan-400">Proyectos</span>
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="card rounded-3xl overflow-hidden">
+<div class="h-52 bg-cyan-400/10 flex items-center justify-center text-6xl font-black text-white/10">
+01
+</div>
+
+<div class="p-6">
+<h3 class="text-2xl font-bold mb-4">
+Sistema de Captura
+</h3>
+
+<p class="text-gray-400 leading-7">
+Aplicación moderna para automatización y captura de datos.
+</p>
+</div>
+</div>
+
+<div class="card rounded-3xl overflow-hidden">
+<div class="h-52 bg-cyan-400/10 flex items-center justify-center text-6xl font-black text-white/10">
+02
+</div>
+
+<div class="p-6">
+<h3 class="text-2xl font-bold mb-4">
+Laboratorio de Redes
+</h3>
+
+<p class="text-gray-400 leading-7">
+Configuraciones empresariales VLAN y routing.
+</p>
+</div>
+</div>
+
+<div class="card rounded-3xl overflow-hidden">
+<div class="h-52 bg-cyan-400/10 flex items-center justify-center text-6xl font-black text-white/10">
+03
+</div>
+
+<div class="p-6">
+<h3 class="text-2xl font-bold mb-4">
+Portafolio Profesional
+</h3>
+
+<p class="text-gray-400 leading-7">
+Diseño web moderno optimizado para GitHub Pages.
+</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="py-28 px-6">
+
+<div class="max-w-4xl mx-auto text-center">
+
+<h2 class="text-4xl font-black mb-8">
+Contacto
+</h2>
+
+<p class="text-gray-400 text-lg leading-8">
+Disponible para proyectos tecnológicos y colaboraciones profesionales.
+</p>
+
+<div class="mt-10 flex flex-wrap justify-center gap-5">
+
+<a
+href="https://github.com"
+target="_blank"
+class="px-6 py-4 rounded-2xl border border-white/10 hover:border-cyan-400 transition"
+>
+GitHub
+</a>
+
+<a
+href="https://linkedin.com"
+target="_blank"
+class="px-6 py-4 rounded-2xl border border-white/10 hover:border-cyan-400 transition"
+>
+LinkedIn
+</a>
+
+<a
+href="https://wa.me/18090000000"
+target="_blank"
+class="px-6 py-4 rounded-2xl bg-green-500 text-black font-bold hover:scale-105 transition"
+>
+WhatsApp
+</a>
+
+</div>
+
+</div>
+</section>
+
+<footer class="border-t border-white/10 py-8 text-center text-gray-500 text-sm">
+© 2026 Luis Carlos Mendez — Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
