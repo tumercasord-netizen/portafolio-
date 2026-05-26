@@ -4,11 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Luis Carlos Mendez</title>
+<title>Luis Carlos Mendez | Ingeniero en Sistemas</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 
 <style>
+
 html{
 scroll-behavior:smooth;
 }
@@ -16,16 +17,7 @@ scroll-behavior:smooth;
 body{
 background:#050816;
 overflow-x:hidden;
-}
-
-.glow{
-box-shadow:0 0 25px rgba(34,211,238,.4);
-}
-
-.card{
-background:rgba(255,255,255,.03);
-backdrop-filter:blur(10px);
-border:1px solid rgba(255,255,255,.08);
+font-family:Arial, sans-serif;
 }
 
 .grid-bg{
@@ -34,13 +26,25 @@ linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
 linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
 background-size:40px 40px;
 }
+
+.card{
+background:rgba(255,255,255,.03);
+backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,.08);
+}
+
+.glow{
+box-shadow:0 0 25px rgba(34,211,238,.4);
+}
+
 </style>
 </head>
 
-<body class="text-white font-sans grid-bg">
+<body class="text-white grid-bg">
 
 <!-- NAVBAR -->
 <header class="fixed w-full top-0 z-50 backdrop-blur-lg bg-black/30 border-b border-white/10">
+
 <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
 <h1 class="text-2xl font-black tracking-widest text-cyan-400">
@@ -48,13 +52,28 @@ LCM
 </h1>
 
 <nav class="hidden md:flex gap-8 text-sm text-gray-300">
-<a href="#inicio" class="hover:text-cyan-400 transition">Inicio</a>
-<a href="#sobre" class="hover:text-cyan-400 transition">Sobre mí</a>
-<a href="#skills" class="hover:text-cyan-400 transition">Habilidades</a>
-<a href="#proyectos" class="hover:text-cyan-400 transition">Proyectos</a>
-<a href="#contacto" class="hover:text-cyan-400 transition">Contacto</a>
-</nav>
 
+<a href="#inicio" class="hover:text-cyan-400 transition">
+Inicio
+</a>
+
+<a href="#sobre" class="hover:text-cyan-400 transition">
+Sobre mí
+</a>
+
+<a href="#skills" class="hover:text-cyan-400 transition">
+Habilidades
+</a>
+
+<a href="#proyectos" class="hover:text-cyan-400 transition">
+Proyectos
+</a>
+
+<a href="#contacto" class="hover:text-cyan-400 transition">
+Contacto
+</a>
+
+</nav>
 </div>
 </header>
 
@@ -62,21 +81,34 @@ LCM
 <section id="inicio" class="min-h-screen flex flex-col justify-center items-center text-center px-6">
 
 <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-cyan-400 glow mb-8">
+
 <img
-src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800"
+src="foto.jpg"
+alt="Foto Perfil"
 class="w-full h-full object-cover"
 >
+
 </div>
 
 <h1 class="text-5xl md:text-7xl font-black leading-tight">
+
 Luis Carlos
+
 <span class="text-cyan-400">
 Mendez
 </span>
+
 </h1>
 
-<p class="mt-6 text-gray-400 max-w-2xl text-lg leading-8">
-Ingeniero en Sistemas & Infraestructura TI
+<p class="mt-6 text-gray-400 max-w-3xl text-lg leading-8">
+
+Ingeniero en Sistemas especializado en redes de datos,
+administración TI, Python, soporte técnico, análisis de datos
+y ciberseguridad.
+
+Experiencia en infraestructura tecnológica,
+automatización y soluciones empresariales modernas.
+
 </p>
 
 <div class="mt-10 flex flex-wrap gap-4 justify-center">
@@ -102,17 +134,30 @@ Descargar CV
 
 <!-- SOBRE MI -->
 <section id="sobre" class="py-28 px-6">
+
 <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
 <div>
+
 <h2 class="text-4xl font-black mb-6">
-Sobre <span class="text-cyan-400">mí</span>
+
+Sobre
+<span class="text-cyan-400">
+mí
+</span>
+
 </h2>
 
 <p class="text-gray-400 text-lg leading-8">
-Apasionado por redes empresariales, ciberseguridad y desarrollo moderno.
-Me enfoco en crear soluciones rápidas, elegantes y profesionales.
+
+Profesional orientado a infraestructura tecnológica,
+redes empresariales, automatización y soluciones modernas.
+
+Experiencia en administración TI, soporte técnico,
+seguridad informática y desarrollo con Python.
+
 </p>
+
 </div>
 
 <div class="card rounded-3xl p-10">
@@ -120,86 +165,190 @@ Me enfoco en crear soluciones rápidas, elegantes y profesionales.
 <div class="space-y-5">
 
 <div class="flex justify-between border-b border-white/10 pb-4">
-<span class="text-gray-400">Especialidad</span>
-<span>Infraestructura & Redes</span>
+
+<span class="text-gray-400">
+Especialidad
+</span>
+
+<span>
+Infraestructura & Redes
+</span>
+
 </div>
 
 <div class="flex justify-between border-b border-white/10 pb-4">
-<span class="text-gray-400">Ubicación</span>
-<span>República Dominicana</span>
+
+<span class="text-gray-400">
+Ubicación
+</span>
+
+<span>
+República Dominicana
+</span>
+
+</div>
+
+<div class="flex justify-between border-b border-white/10 pb-4">
+
+<span class="text-gray-400">
+Área
+</span>
+
+<span>
+Administrador TI
+</span>
+
 </div>
 
 <div class="flex justify-between">
-<span class="text-gray-400">Disponibilidad</span>
-<span class="text-green-400">Disponible</span>
+
+<span class="text-gray-400">
+Disponibilidad
+</span>
+
+<span class="text-green-400">
+Disponible
+</span>
+
 </div>
 
+</div>
+</div>
+</div>
+</section>
+
+<!-- HABILIDADES -->
+<section id="skills" class="py-28 px-6">
+
+<div class="max-w-6xl mx-auto">
+
+<h2 class="text-4xl font-black text-center mb-16">
+
+Habilidades
+<span class="text-cyan-400">
+Técnicas
+</span>
+
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<!-- Redes -->
+<div class="card rounded-3xl p-8">
+
+<h3 class="text-2xl font-bold text-cyan-400 mb-6">
+Redes
+</h3>
+
+<div class="flex flex-wrap gap-3">
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Redes de Datos
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Cisco
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+VLAN
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Routing
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Switching
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Firewall
+</span>
+
+</div>
+</div>
+
+<!-- Sistemas -->
+<div class="card rounded-3xl p-8">
+
+<h3 class="text-2xl font-bold text-cyan-400 mb-6">
+TI & Sistemas
+</h3>
+
+<div class="flex flex-wrap gap-3">
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Administrador TI
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Soporte Técnico
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Linux
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Windows Server
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Virtualización
+</span>
+
+</div>
+</div>
+
+<!-- Desarrollo -->
+<div class="card rounded-3xl p-8">
+
+<h3 class="text-2xl font-bold text-cyan-400 mb-6">
+Data & Desarrollo
+</h3>
+
+<div class="flex flex-wrap gap-3">
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Python
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Análisis de Datos
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Power BI
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+SQL
+</span>
+
+<span class="px-4 py-2 bg-black/30 rounded-xl">
+Automatización
+</span>
+
+</div>
 </div>
 
 </div>
 </div>
 </section>
 
-<!-- SKILLS -->
-<section id="skills" class="py-28 px-6">
-
-<div class="max-w-6xl mx-auto">
-
-<h2 class="text-4xl font-black text-center mb-16">
-Habilidades <span class="text-cyan-400">Técnicas</span>
-</h2>
-
-<div class="grid md:grid-cols-3 gap-8">
-
-<div class="card rounded-3xl p-8">
-<h3 class="text-2xl font-bold text-cyan-400 mb-6">
-Redes
-</h3>
-
-<div class="flex flex-wrap gap-3">
-<span class="px-4 py-2 bg-black/30 rounded-xl">Redes de Datos</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">Cisco</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">Cybersecurity</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">Routing</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">Switching</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">Firewall</span>
-</div>
-  
-<div class="card rounded-3xl p-8">
-<h3 class="text-2xl font-bold text-cyan-400 mb-6">
-Sistemas
-</h3>
-
-<div class="flex flex-wrap gap-3">
-<span class="px-4 py-2 bg-black/30 rounded-xl">Administrador TI</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">Soporte Técnico</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">Linux</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">Windows Server</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">Virtualización</span>
-</div>
-
-<div class="card rounded-3xl p-8">
-<h3 class="text-2xl font-bold text-cyan-400 mb-6">
-Desarrollo
-</h3>
-
-<div class="flex flex-wrap gap-3">
-<span class="px-4 py-2 bg-black/30 rounded-xl">Python</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">Análisis de Datos</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">Power BI</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">Automatización</span>
-<span class="px-4 py-2 bg-black/30 rounded-xl">SQL</span>
-</div>
-
-</div>
-</div>
 <!-- PROYECTOS -->
 <section id="proyectos" class="py-28 px-6">
 
 <div class="max-w-6xl mx-auto">
 
 <h2 class="text-4xl font-black text-center mb-16">
-Mis <span class="text-cyan-400">Proyectos</span>
+
+Mis
+<span class="text-cyan-400">
+Proyectos
+</span>
+
 </h2>
 
 <div class="grid md:grid-cols-2 gap-8">
@@ -222,8 +371,10 @@ TuMercadord.es
 </h3>
 
 <p class="text-gray-400 leading-8 mb-6">
-Plataforma web enfocada en servicios digitales y soluciones tecnológicas.
-Proyecto desarrollado con enfoque moderno, optimización web y experiencia de usuario.
+
+Plataforma web enfocada en servicios digitales
+y soluciones tecnológicas modernas.
+
 </p>
 
 <a
@@ -255,8 +406,10 @@ Sistema Web Streamlit
 </h3>
 
 <p class="text-gray-400 leading-8 mb-6">
-Aplicación web desarrollada con Python y Streamlit.
-Orientada a automatización, análisis y soluciones dinámicas para usuarios.
+
+Aplicación desarrollada con Python y Streamlit
+orientada a automatización y soluciones web.
+
 </p>
 
 <a
@@ -273,6 +426,7 @@ Ver Aplicación
 </div>
 </div>
 </section>
+
 <!-- CONTACTO -->
 <section id="contacto" class="py-28 px-6">
 
@@ -283,7 +437,10 @@ Contacto
 </h2>
 
 <p class="text-gray-400 text-lg leading-8">
-Disponible para proyectos tecnológicos y colaboraciones profesionales.
+
+Disponible para proyectos tecnológicos,
+infraestructura TI y soluciones empresariales.
+
 </p>
 
 <div class="mt-10 flex flex-wrap justify-center gap-5">
@@ -297,7 +454,7 @@ GitHub
 </a>
 
 <a
-href="https://www.linkedin.com/in/tumercadord-somos-tu-mercado-b3638b318?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+href="https://linkedin.com"
 target="_blank"
 class="px-6 py-4 rounded-2xl border border-white/10 hover:border-cyan-400 transition"
 >
@@ -305,7 +462,7 @@ LinkedIn
 </a>
 
 <a
-href="https://wa.me/18293226012"
+href="https://wa.me/18090000000"
 target="_blank"
 class="px-6 py-4 rounded-2xl bg-green-500 text-black font-bold hover:scale-105 transition"
 >
@@ -317,8 +474,11 @@ WhatsApp
 </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="border-t border-white/10 py-8 text-center text-gray-500 text-sm">
+
 © 2026 Luis Carlos Mendez — Todos los derechos reservados.
+
 </footer>
 
 </body>
